@@ -10,12 +10,12 @@ async def start(_, message: Message):
         text="**🎈Hello 👋🏻 {}!**\n\n 🤡I Am Simple Vc Music Play Bot🤗 💥I **Can Play Music In Voice Chats of Telegram Groups.**🥶I Have A **lot of cool feature that will amaze You🥶!**\n\n**🤗send /cmdlist For More Help On My Usage ❤  🤗This Bot Made By @omindas 🤗**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/SD_VC_Music_Play_Ro_Bot?startgroup=true")
+            InlineKeyboardButton("🎙️ Add To Your Group 🎙️", url="https://t.me/SD_VC_Music_Play_Ro_Bot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/sdbotworld"),
-            InlineKeyboardButton("Channel 🔊", url="https://t.me/sdprojectupdates")
+            InlineKeyboardButton("🎲Bot Group🎲", url="https://t.me/sdbotworld"),
+            InlineKeyboardButton("💥 Update Channal 💥", url="https://t.me/sdprojectupdates")
             ],[
-            InlineKeyboardButton("🎲Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
+            InlineKeyboardButton("👨‍💻Commands🎲", url="https://telegra.ph/𝗚𝗮𝗿𝗳𝗶𝗹𝗱-𝗕𝗼𝘁-𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀-08-19")
             ]]
         ),
         disable_web_page_preview=True
