@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="**🎈Hello 👋🏻 {}!**\n\n 🤡I Am Simple Vc Music Play Bot🤗 💥I **Can Play Music In Voice Chats of Telegram Groups.**🥶I Have A **lot of cool feature that will amaze You🥶!**\n\n**🤗send /cmdlist For More Help On My Usage ❤  🤗This Bot Made By @omindas 🤗**".format(message.from_user.mention),
+        text="**🎈Hello 👋🏻 {}!**\n\n 🤡I Am Garfild Vc Music Play Bot🤗 💥I **Can Play Music In Voice Chats of Telegram Groups.**🥶I Have A **lot of cool feature that will amaze You🥶!**\n\n**🤗send /cmdlist For More Help On My Usage ❤  🤗This Bot Made By @omindas 🤗**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("🎙️ Add To Your Group 🎙️", url="https://t.me/SD_VC_Music_Play_Ro_Bot?startgroup=true")
