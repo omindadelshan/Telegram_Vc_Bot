@@ -15,7 +15,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("🎲Bot Group🎲", url="https://t.me/sdbotworld"),
             InlineKeyboardButton("💥 Update Channal 💥", url="https://t.me/sdprojectupdates")
             ],[
-            InlineKeyboardButton("💎My Commands💎", callback_data='help')
+            InlineKeyboardButton("💎My Commands💎", callback_data='help_data')
             ]]
         ),
         disable_web_page_preview=True
